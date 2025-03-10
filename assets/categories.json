@@ -1,0 +1,7 @@
+[
+  {"name": "บัตรเครดิต", "icon": "credit_card"},
+  {"name": "ของใช้", "icon": "shopping_bag"},
+  {"name": "ค่ารักษา", "icon": "medication"},
+  {"name": "บันเทิง", "icon": "theaters"},
+  {"name": "อื่นๆ", "icon": "more_horiz"}
+]
