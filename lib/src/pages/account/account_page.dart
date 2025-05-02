@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_expense_tracker/src/pages/test/test_list_dropdown_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -103,6 +104,17 @@ class _AccountPageState extends State<AccountPage> {
               leading: Icon(Icons.notifications),
               title: Text('ตั้งค่าการแจ้งเตือน'),
               onTap: _goToNotificationSettings,
+            ),
+            Divider(),
+            ListTile(
+              leading: Icon(Icons.pending),
+              title: Text('ทดสอบ'),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => SurgeonOperationForm()),
+                );
+              },
             ),
             Divider(),
             // แสดงสถานะการเข้าสู่ระบบ
